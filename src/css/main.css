@@ -1,0 +1,84 @@
+/*轮播图*/
+.myfocus-wrap{width:%100; height:520px;overflow: hidden;}
+
+
+/*内容*/
+.main{background: #fff;}
+.main-onetit{height: 51px; width: 1210px; margin: 0 auto; padding-top: 40px; padding-bottom: 28px;}
+.one-list{ width: 1210px; height: 329px; margin: 0 auto;}
+.one-list li{width: 234; height: 329px; float: left;margin-right: 10px;}
+.one-list li img{width: 234px; height: 329px;;}
+.mar-no{margin-right:0 !important;}
+
+.main-twotit,.hot-store{height: 60px;width: 1210px; margin: 0 auto;}
+.main-twotit img{float: left;}
+.hotbtn{padding-top:23px;padding-right:15px; float: right; position: relative;}
+.hotbtn-left{width: 19px; height: 17px;display: block; float: left;  overflow:hidden;background:url(img/share02.png) no-repeat; background-position: -239px -384px;}
+.hotbtn-right{width: 9px; height: 17px;display: block;  overflow:hidden;background:url(img/share02.png) no-repeat; background-position: -266px -384px;}
+.hot-store{overflow: hidden;height:180px ; position:relative;}
+.hot-ul{width: 3630px;height: 184px;  position: absolute; left: 0;}
+.hot-li{width:1210px; height: 184px; float: left;}
+.hot-pic{position: relative;width: 107px; height: 54px; padding: 14px 29px; border: 1px solid #dfdfdf; float: left;margin-bottom: 7px;margin-right: 6px;}
+.hot-pic img{width: 107px; height: 54px;}
+.hot-in{position: absolute; width: 107px; height: 42px;left:29px; top:14px; padding-top: 12px;display:none;}
+.hot-in a{font-size: 18px;color: inherit; text-align: center; line-height: 42px; }
+.underline span{display: inline-block;width: 20px; height: 2px; background: #000; position: absolute; left: 44px;}
+
+.main-threetit{ width: 1210px; height: 112px; margin: 0 auto;}
+.storesame-link{width: 1210px; margin: 0 auto; height:30px;margin-bottom: 15px;}
+.storesame-link li{width: 398px; height: 30px;color: #fff; background: #999; line-height: 30px; text-align: center; font-size: 14px; margin-right: 8px;float: left;}
+.storesame{width: 1210px;margin: 0 auto;}
+.storesame-left{width: 368px; float: left;}
+.storesame-right{width: 833px; float: left;margin-left: 9px;}
+
+.storesame-top{height: 250px;}
+.storesame-top li{width: 222px; height: 250px; border: 1px solid #ccc; float: left;}
+.nenefit{width: 369px !important;margin: 0 7px;}
+.details{width: 76px; height: 72px; margin: 0 auto; font-size: 13px; color: #666; text-align: center;line-height: 18px;}
+.storesamepic{vertical-align: middle; text-align:center}
+.storesame-bottom li{width: 271px; height: 257px;border: 1px solid #ccc; float: left;margin-top: 7px;margin-right: 7px;}
+
+/*购物中心*/
+/*列表*/
+.shopping{ width: 1210px; margin: 0 auto;}
+.shoplist{ width: 234px; height: 50px; float: left;margin-right: 8px;position: relative; overflow: hidden;}
+.shoplist-all{width: 234px; height: 100px;position: absolute;}
+.shoplist-on{width: 234px;height: 50px; line-height: 50px; background: #999; text-align: center;font-size: 14px;color: #fff;}
+.shoplist-in{width: 224px;height: 40px;padding: 5px;background: #333;color: #fff;text-align: center;font-size: 14px;}
+.shoplit-p{border: 1px solid #fff;width: 223px;height: 40px;}
+.shoplit-p p{margin-top: 10px;}
+/*包*/
+.bags{}
+.bags img{float: left;}
+.rightbtn{ height: 60px; line-height: 60px; float: right;}
+.txtbtn{font-size: 18px;color:#000; font-family:"新宋体";}
+.txtbtn:hover{color:#c69c6d;}
+.icon{width: 18px;background: red; height: 60px;margin-left: 6px; float: right;background: url(img/share02.png) no-repeat;background-position: -470px -360px;}
+/*经典箱包*/
+.goodslists{height:181px;padding-bottom: 16px; border-bottom: 1px dashed #d4d4d4;}
+.goods1{clear:both;width: 220px;height: 366px;border: 1px solid #ccc; padding-top: 4px; padding: 0 9px;margin-right: 8px; float: left;}
+.goods2{float: left;width: 390px; height: 370px; border: 1px solid #ccc; overflow: hidden;margin-right: 8px;position: relative;}
+.goodslists li{width: 110px; line-height: 36px; float: left;font-size: 14px; text-align: left;}
+.goodslists li a{color: #666;}
+.goodslists li a:hover{color:#c69c6d ;}
+.fendi{width: 250px; height: 90px; position: absolute; bottom: 10px; left: 50%; margin-left: -125px;background: #fff;opacity: 0.7;} 
+.fendi dl{padding-top: 5px;}
+.fendi dd{width: 100%; text-align: center; font-size: 13px;}
+.fendi b{width: 20px;height: 2px; display: block;margin: 5px auto; background-color: #000;}
+.fendi dt{width: 100%; text-align: center;font-size: 17px; line-height: 17px; margin-top: 10px;}
+.goods3 .goods3pic1{width: 276px; height: 189px; margin-right: 7px; float: left;}
+.goods3 .goods3pic1 img{border: 1px solid #ccc;}
+.goods3 .goods3pic2{width: 276px; height: 189px; float: left;}
+.goods3 .goods3pic2 img{border: 1px solid #ccc;}
+/*主题活动*/
+.promotiontit{width: 1210px; margin: 0 auto;}
+.promotion1{margin-bottom: 10px;}
+.promotibox{width: 1210px; margin: 0 auto;}
+.promotion1piv1{float: left;width:610px; height: 295px;}
+.promotion1piv2{width: 305px; height: 295px; float: left;}
+.promotion1piv2{float: left;}
+.promotion2pic1{ width: 305px; height: 295px; float: left;}
+.promotion2pic2{ float: left;}
+.proleft{width: 610px;height: 164px; float:left;clear: both;}
+.proleft li{width: 203px; height: 73px; float: left;}
+.proright{width:600px;height:138px;float: left;}

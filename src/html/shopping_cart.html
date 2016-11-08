@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/top.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bottom.css" />
+		<link rel="stylesheet" type="text/css" href="../css/shopping_cart.css" />
+		<script src="../js/mycookie.js"> </script>
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="../js/top.js"></script>
+		<script>
+        $(function(){
+
+	
+
+	var str=getCookie("arr");
+
+	var arr=JSON.parse(str);
+   
+	for (var i=0;i<arr.length;i++)
+	{
+        $("<a><input type='checkbox'></a>").appendTo("#infor").addClass("gd-li1 gd-li");
+        $("<img/>").attr({"src":arr[i].small_pic}).appendTo("#infor").addClass("gd-li2 gd-li");
+        $("<a/>").html(arr[i].shipname).appendTo("#infor").addClass("gd-li3 gd-li");
+        $("<a/>").html(arr[i].gdcolor+","+arr[i].blank).appendTo("#infor").addClass("gd-li4 gd-li");
+        $("<a/>").html(arr[i].price).appendTo("#infor").addClass("gd-li5 gd-li");
+        $("<a/>").html(arr[i].gd_num).appendTo("#infor").addClass("gd-li6 gd-li");
+        $("<a/>").appendTo("#infor").addClass("gd-li7 gd-li");
+        $("<a/>").html(arr[i].price).appendTo("#infor").addClass("gd-li8 gd-li");
+        $("<div><button>删除</button></div>").appendTo("#infor").addClass("gd-li9 gd-li");
+
+	}
+       
+      })
+//+", "+arr[i].price+","+arr[i].blank+","+arr[i].gdcolor
+	</script>
+	</head>
+	<body>
+		
+		
+			<!--//顶部信息栏-->
+		
+		<div class="head-wrap">
+			<div class="head">
+				<dl class="head-one">
+					<dt><a href="#">第五大道首页</a></dt>
+				</dl>
+				<dl class="head-two">
+					<dt><a>贵宾专线:400-660-5610</a></dt>
+				</dl>
+				
+				<div class="head-right">
+					
+	
+					<dl class="download">
+						<dt><span><a href="#">手机版下载</a></span></dt>
+						<dd>
+							<ul>
+								<li><img src="../img/qr.jpg"></li>
+								<li>扫描下载APP</li>
+								<li>立即<span class="download-red"><strong>赠送50元</strong></span></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="help">
+						<dt><a href="#">帮助中心</a></dt>
+						<dd></dd>
+					</dl>
+					<dl class="five">
+						<dt><a href="#">我的第五大道</a></dt>
+						<dd>
+							<ul>
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">已购商品</a></li>
+								<li><a href="#">我的礼券</a></li>
+								<li><a href="#">我的积分</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<div class="head-load">
+						
+					    <span class="load-left"><a href="#">注册<a href="#"></a></a></span>
+					    <span class="load-right"><a href="#">登录<a href="#"></a></a></span>
+					</div>		
+				</div>
+			</div>
+		</div>
+		
+		<!--//头部-->
+		<div class="top-wrap">
+			<div class="top">
+				<div class="top-logo">
+					<a href="#"><img src="../img/logo.jpg"></a>
+				</div>
+				
+				<div class="top-yijian">
+					<a><img src="../img/yijian.jpg"></a>
+				</div>
+				
+				<div class="search">
+					<input type="text" class="search-text" placeholder="爱马仕铂金包"/>
+					<input type="button" value="搜索" class="search-click"/>
+					<ul class="search-list">
+						<li><a href="#">腕表</a></li>
+						<li><a href="#">箱包</a></li>
+						<li><a href="#">阿玛尼</a></li>
+						<li><a href="#">T恤</a></li>
+					</ul>
+				</div>
+				
+				<div class="bag">
+					<dl class="bag-all">
+						<dt class="bag-one" id="bag_one"><img src="../img/bag.png"><a>购物袋(0)&nbsp;&gt;</a></dt>
+						<dd class="bag-two">
+							<ul>
+								<li><p>购物袋暂时没有商品，<br/>赶紧选择心爱的商品吧！</p></li>					
+						    </ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+         
+          <!-- 列表-->
+		<div class="list-wrap">
+		    <div class="all-list">
+				<ul class="first-floor">
+					<li class="commodity"><span class="commodity-red"><a href="#">商品分类</a></span>
+						<div class="second-floor">
+							<ul>
+								<li><a href="#">推荐品牌</a>
+									<div class="three-floor">
+									<dl>
+										<dt><a href="#">国际高端</a></dt>
+										<dd>
+											<ul>
+												<li><a href="#">Louis Vuitton/LV</a></li>
+											    <li><a href="#">Chanel</a></li>
+											    <li><a href="#">Prada</a></li>
+											    <li><a href="#">Fendi</a></li>
+											    <li><a href="#">Versace</a></li>
+											    <li><a href="#">Burberry</a></li>
+											    <li><a href="#">Hermes</a></li>
+											    <li><a href="#">Dior</a></li>
+											    <li><a href="#">Gucci</a></li>
+											    <li><a href="#">Mont blanc</a></li>
+											    <li><a href="#">Armani</a></li>
+											    <li><a href="#">Calvin Klein CK</a></li>
+											</ul>										
+										</dd>
+									</dl>
+								    </div>
+								    <dl>
+								    	<dt><a href="#">热销品牌</a></dt>
+								    	<dd>
+								    		<ul>
+								    			<li><a href="#">Sophie & Stephie</a></li>
+								    			<li><a href="#">Michael Kors</a></li>
+								    			<li><a href="#">Swarovski</a></li>
+								    			<li><a href="#">D&G</a></li>
+								    			<li><a href="#">Coach</a></li>
+								    			<li><a href="#">Weekender</a></li>
+								    			<li><a href="#">Rebecca Mincoff</a></li>
+								    			<li><a href="#">Aviendo</a></li>
+								    		</ul>
+								    	</dd>
+								    </dl>
+								    <dl>
+								    	<dt><a href="#">最新品牌</a></dt>
+								    	<dd>
+								    		<ul>
+								    			<li><a href="#">Columbia</a></li>
+								    			<li><a href="#">Roger Vivier</a></li>
+								    			<li><a href="#">Troika</a></li>
+								    			<li><a href="#">Luis onofre</a></li>
+								    			<li><a href="#">Pull-in</a></li>
+								    			<li><a href="#">Proenza Schouler</a></li>
+								    			<li><a href="#">Brosway</a></li>
+								    		</ul>
+								    	</dd>
+								    </dl>
+								    <dl>
+								    	<dt><a href="#">进入所有品牌</a></dt>
+								    	<dd></dd>
+								    </dl>
+								</li>
+								<li><a href="#">箱包</a></li>
+								<li><a href="#">美妆</a></li>
+								<li><a href="#">服装</a></li>
+								<li><a href="#">腕表</a></li>
+								<li><a href="#">配饰</a></li>
+								<li><a href="#">鞋靴</a></li>
+								<li><a href="#">美酒</a></li>
+								<li><a href="#">美食</a></li>
+								<li><a href="#">家居</a></li>
+								<li><a href="#">电子</a></li>
+								<li><a href="#">办公</a></li>
+								<li><a href="#">礼品</a></li>
+								<li><a href="#">海外馆</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="first-color"><a href="#">品牌</a></li>
+					<li class="first-color"><a href="#">最新</a></li>
+					<li class="first-color"><a href="#">女士</a></li>
+					<li class="first-color"><a href="#">男士</a></li>
+					<li class="first-color"><a href="#">生活馆</a></li>
+					<li class="first-color"><a href="#">海外馆</a></li>
+					<li class="first-color"><a href="#">时尚</a></li>
+					<li class="first-color"><a href="#">特惠</a></li>
+					<li class="first-color"><a href="#">礼品区</a></li>
+					<li class="first-color"><a href="#">到店</a></li>
+				</ul>
+			</div>
+	    </div>
+         
+        <!--购物车-->
+		
+         <div class="cart">
+         	<p class="cart-step"></p>
+            <div class="cart-tbody">
+            	<table width="1190" class="cart-goods" cellspacing="0" cellpadding="0">
+            		<tbody>
+            			<tr>
+            				<th width="80" class="cart-tcheck"><input type="checkbox" name="product_checkall" value="1" class="cart-put" checked="checked">全选</th>
+            			    <th></th>
+            				<th width="233">商品名称</th>
+            				<th width="112">商品属性</th>
+            				<th width="170">购物价</th>
+            				<th width="112">购买数量</th>
+            				<th width="167">活动信息</th>
+            				<th width="176">小计</th>
+            				<th width="75" class="cart-operate">操作</th>
+            			</tr>
+            		</tbody>
+            	</table>
+            </div>
+         </div>
+         
+         <div id="infor"></div> 
+         <div id="clearing">
+              <div class="jiesuan">
+              	<span>商品总金额（不含运费）：</span>
+              	<strong></strong>
+              </div>
+         </div>
+         
+        <div class="footer">
+	    	<div class="foot">
+	    		<div class="foot-top">
+	    			<ul>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					    </a>
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>
+	    					
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					    </a>
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>
+	    					
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					    </a>
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>
+	    					
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					    </a>
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>
+	    					
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					   </a>-
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>	    		 
+	    				</li>
+	    				
+	    			</ul>
+	    		</div>
+	    		<div class="foot-zhongj">
+	    			<div class="foot-middle">
+		    			<ul class="foot-middle1">
+		    				<li class="foot-ctr">服务保障</li>
+		    				<li><a href="#">品牌授权正品</a></li>
+		    				<li><a href="#">品牌客服</a></li>
+		    				<li><a href="#">预约到店体验</a></li>
+		    				<li><a href="#">7天无理由退换</a></li>
+		    			</ul>
+		    			<ul>
+		    				<li class="foot-ctr">使用帮助</li>
+		    				<li><a href="#">常见问题</a></li>
+		    				<li><a href="#">会员制度</a></li>
+		    				<li><a href="#">集团采购</a></li>
+		    				<li><a href="#">礼品卡</a></li>
+		    			</ul>
+		    			<ul>
+		    				<li class="foot-ctr">支付方式</li>
+		    				<li><a href="#">到店付款</a></li>
+		    				<li><a href="#">货到付款</a></li>
+		    				<li><a href="#">在线支付</a></li>
+		    				<li><a href="#">余额支付</a></li>
+		    				<li><a href="#">分期付款</a></li>
+		    			</ul>
+		    			<ul>
+		    				<li class="foot-ctr">配送方式</li>
+		    				<li><a href="#">配送说明</a></li>
+		    				<li><a href="#">到店自提</a></li>
+		    				<li><a href="#">运费说明</a></li>
+		    				<li><a href="#">验货签收</a></li>
+		    			</ul>
+		    			<ul>
+		    				<li class="foot-ctr">售后服务</li>
+		    				<li><a href="#">品牌售后</a></li>
+		    				<li><a href="#">售后咨询</a></li>
+		    				<li><a href="#">退换政策</a></li>
+		    				<li><a href="#">发票保障</a></li>
+		    			</ul>
+		    			<div class="foot-middlerit1">
+		    				<span>第五大道APP</span>
+		    				<span><img src="img/footer_message06.jpg"></span>
+		    			</div>
+		    			<div class="foot-middlerit1">
+		    				<span>第五大道微博</span>
+		    				<span><img src="img/footer_message07.jpg"></span>
+		    			</div>
+		    		</div>
+	
+	    		</div>
+	    	    <div class="foot-bottom">
+	    	    	<ul class="bottom-one">
+	    	    		<li><a href="#">箱包</a></li>
+	    	    		<li><a href="#">美妆</a></li>
+	    	    		<li><a href="#">服饰</a></li>
+	    	    		<li><a href="#">腕表</a></li>
+	    	    		<li><a href="#">配饰</a></li>
+	    	    		<li><a href="#">鞋靴</a></li>
+	    	    		<li><a href="#">特惠 </a></li>
+	    	    		<li class="length1"><a href="#">名品闪购</a></li>
+	    	    		<li class="no-mar"><a href="#">礼品区</a></li>
+	    	    	</ul>
+	    	    	<ul class="bottom-two">
+	    	    		<li class="ling"><a href="#">关于第五大道</a></li>
+	    	    		<li><a href="#">网站地图</a></li>
+	    	    		<li class="ling"><a href="#">品牌合作专区</a></li>
+	    	    		<li><a href="#">媒体聚焦</a></li>
+	    	    		<li><a href="#">商务合作</a></li>
+	    	    		<li><a href="#">商家合作</a></li>
+	    	    		<li class="ling"><a href="#">加入第五大道</a></li>
+	    	    		<li><a href="#">友情链接</a></li>
+	    	    		<li><a href="#">奢尚志</a></li>
+	    	    		<li><a href="#">联系我们</a></li>
+	    	    		<li class="no-mar"><a href="#">投诉建议</a></li>
+	    	    	</ul>
+	    	    	<div class="copy">
+	    	    		<p>Copyright © 2008-2014 瑞美嘉信国际信息技术（北京）有限公司  版权所有京ICP备09012701号-1 京公网安备110105007400号 食品经营许可证号：</p>
+	    	    	</div>
+	    	    	<ul class="last">
+	    	    		<li><a href="#"><img src="img/footer_message08.jpg"></a></li>
+	    	    		<li><a href="#"><img src="img/footer_message10.jpg"></a></li>
+	    	    		<li><a href="#"><img src="img/footer_message11.jpg"></a></li>
+	    	    		<li><a href="#"><img src="img/14567178388519.jpg"></a></li>
+	    	    	</ul>
+	    	    </div>
+	    	</div>
+	    </div>
+	</body>
+</html>

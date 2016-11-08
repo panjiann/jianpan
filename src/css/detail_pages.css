@@ -1,0 +1,54 @@
+.detail-pic{width: 1100px; margin: 0 auto;overflow: hidden; margin-top: 15px;}
+.detail-left{width: 480px; height: 617px; float: left;}
+.left-top{width: 480px; height: 480px;border: 1px solid #333;}
+.detail-right{width: 560px;min-height: 615px;overflow: hidden; float: left;padding-left: 60px; overflow-x: hidden;}
+.fontsize18{line-height: 30px; font-size: 18px; }
+.fontsize18 a{color: #999;}
+.fontsize18 a:hover{color: #c8a985;}
+.colornone a{color: #000;}
+.co999{line-height: 30px; color: #999;}
+.gd-price{position: relative;vertical-align: middle;border-bottom: 1px dotted #bfbfbf;border-top: 1px dotted #bfbfbf;}
+.price-div{float: left; padding-left: 12px;}
+.goods-price{color: #c8a985; font-size: 28px; line-height: 34px;}
+.special-price{color: #999;font-size: 16px; text-decoration: line-through;line-height: 30px;}
+.price-type{ width: 80px;padding: 0px;text-align: center;height: 20px;font-size: 12px;color: #fff;background: #c8a985;border-radius: 10px;margin-top: 8px;position: absolute;left: 200px;}
+.gd-price table{margin: 25px 0;}
+.gd-color{margin-top: 15px;  height: 45px;}
+.gd-dt{width: 80px; float: left;padding-left: 13px; text-align:left ; overflow: hidden; height: 24px; line-height: 24px;}
+.gd-dd{width: 460px; min-width: 110px; float: left;overflow: hidden;position: relative;}
+.gd-ddborder{border: 1px solid #dc0000;float: left;margin: 0 13px 13px 0; position: relative;min-width: 32px;}
+.gd-ddborder a{display: inline-block;height:22px;line-height:22px;margin:3px 4px; background: #fff; text-align: center; min-width: 22px;color: #000;}
+.gd-ddborder a:hover{color: #c8a985;}
+.buy-num{position: relative;float: left;}
+.buy-num a{ display: block;width: 22px; height: 22px; position: absolute;background: #c8a985;}
+.add{left: 75px;font-size: 25px;text-align: center;}
+.reduce{font-size: 25px;text-align: center;}
+.buy-ntext{display: block;width: 42px;height: 19px;vertical-align: middle;font-weight:bold ;margin-left: 24px;text-align: center;}
+.gd-con dl{width: 100%; color: #999;height: 24px; line-height: 24px;}
+.gd-con dl dt{display: block;padding-left: 13px;width: 80px;float: left;}
+.gd-con dl dd{float: left;width: 422px;display: block;}
+.gd-con dl dd span{color: #c8a985;text-decoration: underline;}
+.gd-shopbag{position: relative; margin-top: 15px;}
+.buy-btn{margin-left: 10px;height: 35px; float: left;}
+.btmid{display: inline-block;font-size: 14px; color: #c8a985;line-height: 33px;height: 33px;width: 118px;border: 1px solid #c8a985; text-align: center;}
+.add-btn{margin-left: 10px;position: relative; padding-left: 10px;}
+.car-btn{display: inline-block;height: 35px;line-height: 35px;vertical-align:middle;color:rgb(255,255,255);font-family: "微软雅黑";font-size: 14px;border-image-source: initial;border-image-slice: initial;
+border-image-width: initial;border-image-outset: initial;border-image-repeat: initial;cursor: pointer;padding: 0px 28px 0px 52px ; background:rgb(200,169,133);border-width: 0px; margin-left: 20px;}
+
+
+.pic-all{width: 1100px; clear: both; margin:0 auto;}
+
+.small_img{width: 100px;height: 100px;}
+
+.all-left{width: 200px;float: left;}
+.all-right{width: 870px; padding-left: 30px; float: left;}
+.all-left dl dt{width: 198px; text-align: center;line-height: 33px; color: #fff;background: #bfa69a;}
+.pj{width:870px; height: 33px; border: 1px solid #999;}
+.pj li{width: 200px;float: left;height: 33px; line-height: 33px;text-align: center;}
+.all-left dl dd{width: 198px; text-align: center;line-height: 30px; color: #666;clear: both;}
+.all-left dl dd a{color: #666;}
+.popular{width: 870px; float: left;padding-left: 30px; }
+.goods-popular{width: 870px;margin: 15px 0 12px 0;}
+.goods-tops img{ width: 865px; height: 312px;}
+.goods-buttoms{padding-top: 13px;}
+.souo{padding-left: 30px;}

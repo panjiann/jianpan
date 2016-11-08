@@ -1,0 +1,21 @@
+.cart{width: 1190px; margin: 20px auto; padding: 10px 0 0 0;overflow: hidden;}
+.cart-step{background: url(img/cart_step.jpg);width: 700px;height: 47px; float: right;margin: 0px 0px 30px 0px;}
+.cart-goods{height: 40px; line-height: 40px; font-size: 14px; background: #ebeaea;}
+.cart-goods th{text-align: center;}
+
+#infor{width: 1210px; margin: 0 auto;}
+.gd-li{height: 30px;padding:35px 0;text-align: center;border-top: 1px solid #b3b3b3; float: left; }
+.gd-li1{width: 87px;}
+.gd-li2{width: 100px; height: 100px;padding: 0;}
+.gd-li3{width: 223px;}
+.gd-li4{width: 106px;}
+.gd-li5{width: 163px;}
+.gd-li6{width: 118px;}
+.gd-li7{width: 157px;}
+.gd-li8{width: 168px;font-weight: 800;}
+.gd-li9{width: 73px;}
+.gd-pic10{ width: 95px;height: 95px;}
+
+#clearing{width:1210px; height: 95px; margin: 0 auto;clear: both;border-top:1px solid #b3b3b3 ;line-height: 95px;}
+
+.jiesuan{width: 300px;float: right;}

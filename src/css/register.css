@@ -1,0 +1,24 @@
+.top{width: 100%;height: 100px;overflow: hidden; zoom: 1;text-align: center;}
+.header{width: 1000px;  height:100px;margin: 0 auto;position: relative;}
+.header .logo img{float: left;}
+.register-tit{font-family: helvetica; float: left; font-size: 18px;color: #949292; padding-left: 10px;line-height: 90px;}
+.register-phone{height: 27px; position: absolute;right: 0; bottom: 0; }
+.register-phone span a{font-family: helvetica; font-size: 15px;color: #000;height: 27px; line-height:27px;}
+.register{background: url(img/zhuce-bg.jpg);height: 659px; position: relative;}
+.register-left{ background: url(img/zhuce-icon.png) no-repeat; height: 659px;position: absolute;width: 705px;}
+.register-right{width: 450px; background: #fff; margin-top: 47px; margin-left: 10px;position: absolute;float: right; right: 150px;}
+.register-box{margin: 45px auto; text-align: left; width: 330px; position:relative;}
+.box1{width: 100%;text-align: center;border-bottom: #ccc solid 1px; font-family: helvetica;color: #7b7c7c;}
+.box2{height: 32px; line-height: 32px;clear: both;float: none;}
+.box3{position: relative;padding-left: 2px;height: 64px;}
+.register-box li label{width: 72px; float: left;text-align: right;line-height: 28px;height: 28px;vertical-align: middle;}
+.box3 input{width: 210px; height: 30px; line-height: 30px; vertical-align: middle;float: left;}
+.get-sms-code{width: 70px; line-height: 25px;height: 25px;border: 1px solid #ccc; color: #000; position: absolute;right
+-34px;top: 3px;text-align: center;}
+.agree{margin-left: 62px;margin-bottom: 20px;}
+.register-btn{width: 210px;display: inline;margin-left: 72px;height: 30px;line-height: 30px;vertical-align: middle;color: #fff;font-size: 16px;border: 0;overflow: hidden;background-color: #cf0101;}
+.login{margin-top: 10px; text-align: right;padding-bottom:20px;padding-top: 20px;padding-right: 25px;border-bottom: 1px solid #ccc;}
+.login a{color: #a78668; margin-left: 10px; text-decoration: underline;}
+.re-tishi{padding-top: 30px;padding-bottom: 10px;text-align: center;}
+.re-tishi span{color: red;}
+.box1 span{height: 25px;line-height: 25px;padding: 2px 20px; border-top-left-radius: 5px 5px;border-top-right-radius: 5px 5px; position: absolute;left: 0;top: -30px; background-color: #000;color: #fff;}

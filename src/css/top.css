@@ -1,0 +1,47 @@
+.head-wrap{height: 30px; background:#f2f2f2 ;}
+.head{  width: 1210px;margin: 0 auto;}
+.head a{color: #666666;font-size:12px;line-height: 30px;}
+.head-one{width: 110px; text-align:center; float:left; padding:0 7px; height: 12px;}
+.head-two{width: 206px; text-align:center; float:left;line-height: 30px;}
+.head-right{ width: 600px;  float: right; height: 30px;position: relative; z-index: 20;}
+.head-right dl{float: right;}
+.head-right dl a{}
+.head-right dd{text-align: center;}
+/*.head-list li{float: left;padding: 0 20px; border-left: 1px solid #dfdfdf; }*/
+.head a:hover,.search-list a:hover{color: red;}
+.load-left{/*background: url(http://www.5lux.com/vendor/images/5lux/youli.gif)*/ no-repeat;}
+.load-right,.load-left{width: 90px;float: right;text-align: center;}
+
+.five{ height:30px;overflow: hidden;width: 130px;text-align: center;}
+.help{width: 85px;text-align: center;}
+.five-color{background: #fff;}
+.download{ height:30px;overflow: hidden;width: 128px;text-align: center;font-size: 13px;color: #666666 ;}
+.download-red{font-size: 16px;color:#cf0101;}
+
+.top-wrap{height: 110px;}
+.top{width: 1210px;margin: 0 auto;clear: both;}
+.top-logo{width: 244px; float: left;}
+.top-yijian{vertical-align: middle; width: 142px; height: 80px; float: left; margin-top: 14px;padding:0 60px;}
+
+.search{width: 387px; height: 38px;float: left; background-color: #c69c6d; margin-top: 36px; position: relative;z-index:9;}
+.search-text{width: 303px; height: 32px;float: left;border: none;margin:2px 0 0 2px; }
+.search-click{ width: 80px; height: 34px; float: left;border: none; margin-top:2px ; background: #c69c6d ;}
+.search-list{padding-right:25px ; }
+.search-list li{float: left; display: inline-block; padding-right: 25px;line-height: 30px;font-size: 11px; }
+.search-list li a{color: #999;}
+
+.bag{width: 290px; height: 34px; float: left;margin-top: 35px;overflow: hidden; z-index: 10;position: relative; float: right;background: #fff;}
+.bag-one{width: 138px; height: 32px; float: right; vertical-align:middle;color:#666; border: 1px solid #ccc; line-height: 32px;}
+.bag-two{width: 288px;  border: 1px solid #ccc; height: 80px; clear: both; text-align: center;line-height:40px;; }
+
+.list-wrap{height: 40px;background: #000; clear: both;}
+.all-list{ width: 1210px;margin: 0 auto;position: relative;z-index: 9;}
+.first-floor{ height: 40px; float: left;width: 1210px; font-size: 14px;}
+.first-floor li,.first-floor li a{ float: left; line-height: 40px; color:#c69c6d;width: 82px;text-align: center;}
+.commodity,.commodity a{width: 120px !important;text-align: center;}
+.commodity-red a{background:#cf0101; color: #fff !important;}
+.second-floor,.second-floor dl{display: none; }
+.first-color a:hover{color: #fff;}
+/*.three-floor{width: 800px; height: 300px;background-color:#999;}*/
+
+.pic{position: relative;z-index: 8; height: 520px; width: 1440px;margin:0 auto;}

@@ -1,0 +1,19 @@
+#datalist{width: 1230px;margin: 0 auto;}
+#datalist{width: 1210px; display: block;margin: 0 auto; overflow: visible;}
+#datalist li{float: left;width: 280px;position: relative;box-shadow: 5px 5px 5px #ccc;margin-right: 20px;margin-bottom: 18px;z-index: 20;}
+#datalist li img{width: 280px; height: 174px;}
+.shipname{text-align: center;font-size: 14px; height: 33px; line-height: 33px; background: #f2f2f2;position: relative;}
+#datalist li a{ color: #000;}
+#datalist li a:hover{color: #c8a985;}
+
+.advertisement{width: 1209px;margin: 0 auto; overflow: hidden;display: block;}
+.advertisement li{float: left; width: 403px;display: block; height: 200px;overflow: hidden;}
+.hot-brands{width: 1210px; margin: 0 auto;}
+.hot-brandsall{width: 1210px; margin: 0 auto;}
+.hot-brandsall li{float: left;margin-right: 24px; margin-bottom: 25px;position: relative;}
+.no-mar{margin-right: 0 !important;}
+.all-ship{width: 1210px; margin: 0 auto;}
+.ship-list{margin: 0 auto; height: 80px;}
+.ship-list li a{font-size: 14px;color: #666;padding: 0 20px; line-height: 14px;vertical-align: middle;display: block; float: left;}
+.ship-list li a:hover{color: #c8a985;}
+.one-li{margin-left: 50px;}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bottom.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="../js/mycookie.js"></script>
+		 <script type="text/javascript" src="../js/top.js"></script>
+        <script>
+		$(function(){
+
+			// 登录按钮
+			var btnLogin =$("#btnLogin");
+			
+			// 记住密码前面的那个 checkbox
+			var oCheck =$("#savePwd");
+		
+			var oUsername =$("#username");
+			var oPassword =$("#password");
+
+       var str=getCookie("arr");
+       var arr=JSON.parse(str);
+       
+		
+		
+		
+			btnLogin.on('click',function(){
+		 for (var i=0;i<arr.length;i++)
+	{
+			console.log(arr[i].moblie_phone);
+			console.log(arr[i].pass_word);
+				var aa=oUsername.val();
+				console.log(aa);
+				var bb=oPassword.val();
+				console.log(bb);
+				//判断输入的值是否为页面保存了的东西
+				if(aa==arr[i].moblie_phone&&bb==arr[i].pass_word)
+				{
+					alert("登录成功！");
+				}else{
+					alert("用户名不存在或者密码不正确");
+				}
+				
+				}
+			})
+		})
+		
+		
+	</script>
+
+	</head>
+       
+	<body>
+		<div class="top">
+			<div class="header">
+				<div class="logo">
+					<a href="#">
+						<img src="img/v30_5luxlogo.png" />					
+					</a>
+					<span class="register-tit">欢迎登录</span>
+				</div>
+				<div class="register-phone"><img src="img/8-132_03.jpg"><span><a>客服热线400-660-5610</a></span></div>
+			</div>
+		</div>
+		<div class="register">
+        	<div class="register-left"></div>
+        	<div class="register-right">
+        		<div class="register-box">
+        			<ul>
+                       <li class="re_con_title">
+                       	登录第五大道
+                       </li>
+        				<li class="clear_h32"></li>
+        				<li class="login_con" id="phon">
+        					<input type="text" id="username" value="111jgjjg" name="username" class="bg_text" placeholder="用户名/Email/手机号" /><span></span>
+        				</li>
+        				<li class="login_con" id="pass">
+        					<input type="password" id="password" name="username" class="bg_text" placeholder="请输入密码" /><span></span>
+        				</li>
+        				<li class="agree">
+        					<input type="checkbox" id="savePwd" name="comfirmitern"  />记住我（下次自动登录）<a href="#" style="color: #000;">忘记密码?</a>
+        				</li>
+        				<li class="regg">
+        					<input type="submit" value="登录" id="btnLogin" class="register-btn"/>
+        				</li>
+        				<li class="login">
+        					<span>已有账号？</span>
+        					<a href="#">立即登录</a>
+        				</li>
+        				<li class="re-tishi">
+        					立即注册免费获得<span>1880元</span>优惠券
+        				</li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+	     <div class="footer">
+	    	<div class="foot">
+	    		<div class="foot-top">
+	    			<ul>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					    </a>
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>
+	    					
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					    </a>
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>
+	    					
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					    </a>
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>
+	    					
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					    </a>
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>
+	    					
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    					    <img src="img/footer_message01.jpg" />
+	    					   </a>-
+	    					    <div class="foot-toptxt">
+	    					    	<p>正品保障</p>
+	    					    	<a href="#">品牌授权,官方验真</a>
+	    					    </div>	    		 
+	    				</li>
+	    				
+	    			</ul>
+	    		</div>
+	    		<div class="foot-zhongj">
+	    			<div class="foot-middle">
+		    			<ul class="foot-middle1">
+		    				<li class="foot-ctr">服务保障</li>
+		    				<li><a href="#">品牌授权正品</a></li>
+		    				<li><a href="#">品牌客服</a></li>
+		    				<li><a href="#">预约到店体验</a></li>
+		    				<li><a href="#">7天无理由退换</a></li>
+		    			</ul>
+		    			<ul>
+		    				<li class="foot-ctr">使用帮助</li>
+		    				<li><a href="#">常见问题</a></li>
+		    				<li><a href="#">会员制度</a></li>
+		    				<li><a href="#">集团采购</a></li>
+		    				<li><a href="#">礼品卡</a></li>
+		    			</ul>
+		    			<ul>
+		    				<li class="foot-ctr">支付方式</li>
+		    				<li><a href="#">到店付款</a></li>
+		    				<li><a href="#">货到付款</a></li>
+		    				<li><a href="#">在线支付</a></li>
+		    				<li><a href="#">余额支付</a></li>
+		    				<li><a href="#">分期付款</a></li>
+		    			</ul>
+		    			<ul>
+		    				<li class="foot-ctr">配送方式</li>
+		    				<li><a href="#">配送说明</a></li>
+		    				<li><a href="#">到店自提</a></li>
+		    				<li><a href="#">运费说明</a></li>
+		    				<li><a href="#">验货签收</a></li>
+		    			</ul>
+		    			<ul>
+		    				<li class="foot-ctr">售后服务</li>
+		    				<li><a href="#">品牌售后</a></li>
+		    				<li><a href="#">售后咨询</a></li>
+		    				<li><a href="#">退换政策</a></li>
+		    				<li><a href="#">发票保障</a></li>
+		    			</ul>
+		    			<div class="foot-middlerit1">
+		    				<span>第五大道APP</span>
+		    				<span><img src="img/footer_message06.jpg"></span>
+		    			</div>
+		    			<div class="foot-middlerit1">
+		    				<span>第五大道微博</span>
+		    				<span><img src="img/footer_message07.jpg"></span>
+		    			</div>
+		    		</div>
+	
+	    		</div>
+	    	    <div class="foot-bottom">
+	    	    	<ul class="bottom-one">
+	    	    		<li><a href="#">箱包</a></li>
+	    	    		<li><a href="#">美妆</a></li>
+	    	    		<li><a href="#">服饰</a></li>
+	    	    		<li><a href="#">腕表</a></li>
+	    	    		<li><a href="#">配饰</a></li>
+	    	    		<li><a href="#">鞋靴</a></li>
+	    	    		<li><a href="#">特惠 </a></li>
+	    	    		<li class="length1"><a href="#">名品闪购</a></li>
+	    	    		<li class="no-mar"><a href="#">礼品区</a></li>
+	    	    	</ul>
+	    	    	<ul class="bottom-two">
+	    	    		<li class="ling"><a href="#">关于第五大道</a></li>
+	    	    		<li><a href="#">网站地图</a></li>
+	    	    		<li class="ling"><a href="#">品牌合作专区</a></li>
+	    	    		<li><a href="#">媒体聚焦</a></li>
+	    	    		<li><a href="#">商务合作</a></li>
+	    	    		<li><a href="#">商家合作</a></li>
+	    	    		<li class="ling"><a href="#">加入第五大道</a></li>
+	    	    		<li><a href="#">友情链接</a></li>
+	    	    		<li><a href="#">奢尚志</a></li>
+	    	    		<li><a href="#">联系我们</a></li>
+	    	    		<li class="no-mar"><a href="#">投诉建议</a></li>
+	    	    	</ul>
+	    	    	<div class="copy">
+	    	    		<p>Copyright © 2008-2014 瑞美嘉信国际信息技术（北京）有限公司  版权所有京ICP备09012701号-1 京公网安备110105007400号 食品经营许可证号：</p>
+	    	    	</div>
+	    	    	<ul class="last">
+	    	    		<li><a href="#"><img src="img/footer_message08.jpg"></a></li>
+	    	    		<li><a href="#"><img src="img/footer_message10.jpg"></a></li>
+	    	    		<li><a href="#"><img src="img/footer_message11.jpg"></a></li>
+	    	    		<li><a href="#"><img src="img/14567178388519.jpg"></a></li>
+	    	    	</ul>
+	    	    </div>
+	    	</div>
+	    </div>
+	</body>
+</html>

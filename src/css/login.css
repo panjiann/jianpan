@@ -1,0 +1,21 @@
+.top{width: 100%;height: 100px;overflow: hidden; zoom: 1;text-align: center;}
+.header{width: 1000px;  height:100px;margin: 0 auto;position: relative;}
+.header .logo img{float: left;}
+.register-tit{font-family: helvetica; float: left; font-size: 18px;color: #949292; padding-left: 10px;line-height: 90px;}
+.register-phone{height: 27px; position: absolute;right: 0; bottom: 0; }
+.register-phone span a{font-family: helvetica; font-size: 15px;color: #000;height: 27px; line-height:27px;}
+.register{background: url(img/bai-bg.jpg);height: 659px; position: relative;}
+.register-left{ background: url(img/baijin-icon.png) no-repeat; height: 659px;position: absolute;width: 705px;}
+.register-right{width: 450px; background: #fff; margin-top: 47px; margin-left: 10px;position: absolute;float: right; right: 150px;}
+.register-box{ margin: 45px auto; text-align: left; width: 300px; position:relative;}
+.re_con_title{width: 100%;padding-bottom: 12px;text-align: left;color: #6d6d6d;font-size: 15px;border-bottom: 1px solid #ccc;}
+.clear_h32{height: 32px;line-height: 32px;}
+.login_con{height: 64px;padding-left: 25px;}
+.bg_text{width:250px;height: 32px;line-height: 32px;vertical-align: middle;border: 1px solid #ccc;}
+.agree{padding-left: 25px; margin-top: 5px; margin-bottom: 10px;}
+.regg{margin: 0 auto;padding-left: 25px;}
+.register-btn{margin-top: 10px;display: inline;width: 250px; margin: 0 auto;height: 30px;line-height: 30px;vertical-align: middle;color: #fff; font-size: 16px;border: 0;background-color:#cf0101;}
+.login{margin-top: 10px; text-align: right;padding-bottom:20px;padding-top: 20px;padding-right: 25px;border-bottom: 1px solid #ccc;}
+.login a{color: #a78668; margin-left: 10px; text-decoration: underline;}
+.re-tishi{padding-top: 30px;padding-bottom: 10px;text-align: center;}
+.re-tishi span{color: red;}
